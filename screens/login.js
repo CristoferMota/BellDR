@@ -3,53 +3,72 @@ import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
 
 export default function Login() {
   return (
-    <View style={styles.Iphone1313Pro1}>
-      <View style={styles.Group312}>
-        <View style={styles.Group1023}>
-          <Text style={styles.Txt684}>$ 100,000.00</Text>
+    <View style={styles.AndroidLarge1}>
+      <View style={styles.Group216}>
+        <Text style={styles.Txt011}>Don’t have an account?</Text>
+        <Image
+          style={styles.Planta1}
+          source={{
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A27?alt=media&token=b4c03637-433e-4d3e-83cb-4c36304239c8",
+          }}
+        />
+        <View style={styles.Group172}>
+          <Image
+            style={styles.Planta11}
+            source={{
+              uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A27?alt=media&token=b4c03637-433e-4d3e-83cb-4c36304239c8",
+            }}
+          />
+          <Text style={styles.Txt934}>or</Text>
+          <View style={styles.Group433}>
+            <Image
+              style={styles.Icons8LogoDeGoogle1001}
+              source={{
+                uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A12?alt=media&token=968adca2-72c7-4480-b3d2-8e25e1ce6335",
+              }}
+            />
+            <Text style={styles.Txt312}>Log in whith Google</Text>
+          </View>
+          <View style={styles.Group2106}>
+            <Text style={styles.Txt464}>Password</Text>
+          </View>
+          <View style={styles.Group634}>
+            <Text style={styles.Txt567}>Belldr</Text>
+            <Image
+              style={styles.Bosque1}
+              source={{
+                uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A30?alt=media&token=ab9f248f-3a48-4a47-9887-46c7429d7e9b",
+              }}
+            />
+            <Text style={styles.Txt499}>or</Text>
+          </View>
         </View>
       </View>
-      <View style={styles.Rectangle1} />
-      <View style={styles.Group035}>
+      <Image
+        style={styles.Kijijiij1}
+        source={{
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A19?alt=media&token=228d1e81-eb7e-4793-99e1-d47e4b332b49",
+        }}
+      />
+      <View style={styles.Group308}>
+        <Text style={styles.Txt7101}>9:41</Text>
         <Image
-          style={styles.Image1}
+          style={styles.Unnamed1}
           source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sy0b8ttl3gm-103%3A3?alt=media&token=00906f83-8614-4591-8817-d18758daeb23",
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A20?alt=media&token=2ca1f1e6-2cf3-4565-95cd-f3f0f2e0419d",
           }}
         />
-        <Text style={styles.Txt237}>$ 3,250.00</Text>
-      </View>
-      <View style={styles.Group531}>
         <Image
-          style={styles.Image2}
+          style={styles.Unnamed11}
           source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sy0b8ttl3gm-103%3A6?alt=media&token=3a4d222c-9282-4966-975c-102be2ebc664",
+            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A21?alt=media&token=26eb5ceb-da6b-4b0d-ba78-ce052451d5bf",
           }}
         />
-        <Text style={styles.Txt237}>$ 3,250.00</Text>
-      </View>
-      <View style={styles.Group251}>
-        <Image
-          style={styles.Image3}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sy0b8ttl3gm-103%3A8?alt=media&token=86241129-df27-4fdf-a8cf-2a88f7f51e4f",
-          }}
-        />
-        <Text style={styles.Txt237}>$ 3,250.00</Text>
-      </View>
-      <View style={styles.Group394}>
-        <Image
-          style={styles.Image1}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sy0b8ttl3gm-103%3A10?alt=media&token=8883e674-dbf4-43a4-b4f1-9885bc7add23",
-          }}
-        />
-        <Text style={styles.Txt237}>$ 3,250.00</Text>
       </View>
       <Image
-        style={styles.Image5}
+        style={styles.HojaDeMonstera1}
         source={{
-          uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/sy0b8ttl3gm-103%3A17?alt=media&token=cf19f331-7d78-4d54-84b2-b19be7c1ec8c",
+          uri: "https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/vs6om8dxe-15%3A29?alt=media&token=734a8421-06fc-4db8-83a9-bc52e8bbc5e5",
         }}
       />
     </View>
@@ -57,60 +76,47 @@ export default function Login() {
 }
 
 const styles = StyleSheet.create({
-  Iphone1313Pro1: {
+  AndroidLarge1: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "flex-start",
     position: "relative",
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 390,
-    height: 844,
+    backgroundColor: "rgba(215,219,221,1)",
+    width: 360,
+    height: 800,
   },
-  Group312: {
+  Group216: {
     position: "absolute",
-    top: 116,
-    paddingTop: 14,
-    paddingBottom: 14,
-    paddingLeft: 14,
-    paddingRight: 14,
-    borderRadius: 110,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 220,
-    height: 220,
+    top: 50,
+    none: "0px",
+    borderRadius: 18,
+    backgroundColor: "rgba(232,227,226,1)",
+    width: 360,
+    height: 700,
   },
-  Group1023: {
-    paddingTop: 84,
-    paddingBottom: 83,
-    paddingLeft: 29,
-    paddingRight: 28,
-    borderRadius: 95,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 190,
-    height: 190,
-  },
-  Txt684: {
-    fontSize: 16,
-    fontFamily: "Inter, sans-serif",
+  Txt011: {
+    position: "absolute",
+    top: 593,
+    left: 83,
+    fontSize: 18,
+    fontFamily: "Roboto, sans-serif",
     fontWeight: "400",
     color: "rgba(0,0,0,1)",
-    textAlign: "center",
-    justifyContent: "center",
-    width: 131,
-    height: 21,
+    width: 250,
+    height: 28,
   },
-
-  Rectangle1: {
+  Planta1: {
     position: "absolute",
-    top: 414,
-    left: 0,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 390,
-    height: 430,
+    top: 29,
+    left: 290,
+    width: 48,
+    height: 43,
   },
-  Group035: {
+  Group172: {
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
+    alignItems: "center",
     position: "absolute",
     top: 514,
     paddingTop: 25,
@@ -125,126 +131,146 @@ const styles = StyleSheet.create({
     width: 195,
     height: 100,
   },
-  Image1: {
+  Planta11: {
+    position: "absolute",
+    top: 0,
+    left: 240,
     width: 48,
-    height: 48,
-    marginRight: 13,
+    height: 43,
   },
-  Txt237: {
-    fontSize: 16,
-    fontFamily: "Inter, sans-serif",
+  Txt934: {
+    position: "absolute",
+    top: 441,
+    left: 118,
+    fontSize: 18,
+    fontFamily: "Roboto, sans-serif",
     fontWeight: "400",
     color: "rgba(0,0,0,1)",
-    textAlign: "center",
-    justifyContent: "center",
-    width: 86,
-    height: 49,
+    width: 17,
+    height: 21,
   },
-
-  Group531: {
+  Group433: {
     display: "flex",
     flexDirection: "row",
     position: "absolute",
-    top: 414,
-    paddingTop: 25,
-    paddingBottom: 24,
-    paddingLeft: 26,
-    paddingRight: 10,
-    borderTopLeftRadius: 35,
-    borderTopRightRadius: 0,
-    borderBottomRightRadius: 0,
-    borderBottomLeftRadius: 35,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 195,
-    height: 100,
+    top: 490,
+    paddingTop: 6,
+    paddingBottom: 6,
+    paddingLeft: 8,
+    paddingRight: 22,
+    borderRadius: 14,
+    backgroundColor: "rgba(255,251,251,1)",
+    width: 252,
+    height: 58,
   },
-  Image2: {
-    width: 48,
-    height: 48,
-    marginRight: 23,
+  Icons8LogoDeGoogle1001: {
+    width: 40,
+    height: 44,
+    marginRight: 9,
   },
-  Txt237: {
-    fontSize: 16,
-    fontFamily: "Inter, sans-serif",
-    fontWeight: "400",
-    color: "rgba(0,0,0,1)",
-    textAlign: "center",
-    justifyContent: "center",
-    width: 86,
-    height: 49,
+  Txt312: {
+    fontSize: 18,
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "600",
+    color: "rgba(60,179,113,1)",
+    width: 171,
+    height: 24,
   },
 
-  Group251: {
+  Group2106: {
+    position: "absolute",
+    top: 334,
+    paddingTop: 18,
+    paddingBottom: 16,
+    paddingLeft: 18,
+    paddingRight: 127,
+    marginBottom: 98,
+    borderRadius: 14,
+    backgroundColor: "rgba(255,251,251,1)",
+    width: 252,
+    height: 58,
+  },
+  Txt464: {
+    fontSize: 18,
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "600",
+    color: "rgba(60,179,113,1)",
+    width: 105,
+    height: 22,
+  },
+
+  Group634: {
+    display: "flex",
+    flexDirection: "column",
+    position: "absolute",
+    top: 41,
+    width: 252,
+    height: 566,
+  },
+  Txt567: {
+    fontSize: 32,
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "600",
+    color: "rgba(60,179,113,1)",
+    width: 136,
+    height: 58,
+    marginBottom: 15,
+  },
+  Bosque1: {
+    width: 132,
+    height: 118,
+  },
+  Txt499: {
+    position: "absolute",
+    top: 400,
+    left: 118,
+    fontSize: 18,
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "400",
+    color: "rgba(0,0,0,1)",
+    width: 17,
+    height: 21,
+  },
+
+  Kijijiij1: {
+    position: "absolute",
+    top: 32,
+    left: 280,
+    width: 16,
+    height: 24,
+  },
+  Group308: {
     display: "flex",
     flexDirection: "row",
-    position: "absolute",
-    top: 614,
-    paddingTop: 25,
-    paddingBottom: 24,
-    paddingLeft: 26,
-    paddingRight: 11,
-    borderTopLeftRadius: 35,
-    borderTopRightRadius: 0,
-    borderBottomRightRadius: 0,
-    borderBottomLeftRadius: 35,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 195,
-    height: 100,
-  },
-  Image3: {
-    width: 48,
-    height: 48,
-    marginRight: 22,
-  },
-  Txt237: {
-    fontSize: 16,
-    fontFamily: "Inter, sans-serif",
-    fontWeight: "400",
-    color: "rgba(0,0,0,1)",
-    textAlign: "center",
-    justifyContent: "center",
-    width: 86,
-    height: 49,
-  },
-
-  Group394: {
-    display: "flex",
-    flexDirection: "row",
-    position: "absolute",
-    top: 714,
-    paddingTop: 25,
-    paddingBottom: 24,
-    paddingLeft: 25,
-    paddingRight: 21,
-    borderTopLeftRadius: 0,
-    borderTopRightRadius: 35,
-    borderBottomRightRadius: 35,
-    borderBottomLeftRadius: 0,
-    backgroundColor: "rgba(255, 255, 255, 1)",
-    width: 195,
-    height: 100,
-  },
-  Image1: {
-    width: 48,
-    height: 48,
-    marginRight: 13,
-  },
-  Txt237: {
-    fontSize: 16,
-    fontFamily: "Inter, sans-serif",
-    fontWeight: "400",
-    color: "rgba(0,0,0,1)",
-    textAlign: "center",
-    justifyContent: "center",
-    width: 86,
-    height: 49,
-  },
-
-  Image5: {
     position: "absolute",
     top: 8,
-    left: 337,
-    width: 25,
-    height: 25,
+    width: 333,
+    height: 19,
+  },
+  Txt7101: {
+    fontSize: 14,
+    fontFamily: "Roboto, sans-serif",
+    fontWeight: "400",
+    color: "rgba(0,0,0,1)",
+    width: 37,
+    height: 10,
+    marginRight: 242,
+  },
+  Unnamed1: {
+    width: 19,
+    height: 15,
+    marginRight: 15,
+  },
+  Unnamed11: {
+    width: 20,
+    height: 15,
+  },
+
+  HojaDeMonstera1: {
+    position: "absolute",
+    top: 689,
+    left: 9,
+    width: 50,
+    height: 61,
   },
 })
